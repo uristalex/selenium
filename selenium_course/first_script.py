@@ -23,7 +23,7 @@ time.sleep(10)
 textarea = driver.find_element(By.CSS_SELECTOR, ".textarea")
 
 # Напишем текст ответа в найденное поле
-textarea.send_keys("get()")
+textarea.send_keys("get()") # скрипт
 time.sleep(5)
 
 # Найдем кнопку, которая отправляет введенное решение
